@@ -1,0 +1,4 @@
+201,Griechischer Salat,4.59,350.45
+203,Kanarischer Salat,4.92,310.64
+202,Gartensalat,3.56,250.69
+204,Nizzasalat,5.75,478.98

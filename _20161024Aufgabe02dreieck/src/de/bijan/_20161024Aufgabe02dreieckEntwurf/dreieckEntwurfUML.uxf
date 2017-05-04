@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>360</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>de.bijan._20161024Aufgabe02dreieckEntwurf::Triangle
+--
+-a: Edge
+-b: Edge
+-c: Edge
+--
++Triangle(): ctor
++Triangle(double a, double b, double c): ctor
++getA(): double
++getB(): double
++getC(): double
++setA(double a): void
++setB(double b): void
++setC(double c): void
++toString(): String
++equals(Object otherTriangle): boolean
++clone(): Triangle
++type(): String
+-isIsosceles(): boolean
+-isEquilateral(): boolean
++isPerpendicular(): boolean
++calcArea(): double
++calcPeriphery(): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>60</y>
+      <w>340</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>de.bijan._20161024Aufgabe02dreieckEntwurf::Edge
+--
+-x: double
+--
++Edge(): ctor
++Edge(double x): ctor
++getX(): double
++setX(double x): void
++toString(): String
++equals(Object otherEdge): boolean
++clone(): Edge
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>150</y>
+      <w>370</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=0..1
+m2=3..3</panel_attributes>
+    <additional_attributes>10.0;10.0;350.0;10.0</additional_attributes>
+  </element>
+</diagram>
